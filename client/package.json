@@ -1,0 +1,25 @@
+{
+	"name": "client",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"dependencies": {
+		"@metis.io/middleware-client": "^1.0.0",
+		"@popperjs/core": "^2.9.2",
+		"bootstrap": "^5.0.2",
+		"react": "^17.0.1",
+		"react-bootstrap": "^1.6.1",
+		"react-cookie": "^4.0.3",
+		"react-dom": "16.11.0",
+		"react-router-bootstrap": "^0.25.0",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "3.2.0",
+		"react-singleton-hook": "^3.2.1"
+	},
+	"author": "Pavel Sinelnikov",
+	"license": "MIT"
+}

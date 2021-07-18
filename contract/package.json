@@ -1,0 +1,42 @@
+{
+	"name": "erc721-metis",
+	"version": "0.1.0",
+	"private": true,
+	"workspaces": [
+		"client"
+	],
+	"dependencies": {
+		"@metis.io/middleware-client": "^1.0.0",
+		"@openzeppelin/contracts": "^3.4.1-solc-0.7-2"
+	},
+	"scripts": {},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@metis.io/hardhat-mvm": "^0.2.5",
+		"@nomiclabs/hardhat-ethers": "^2.0.1",
+		"@nomiclabs/hardhat-waffle": "^2.0.1",
+		"chai": "4.3.4",
+		"chai-as-promised": "^7.1.1",
+		"ethereum-waffle": "^3.2.1",
+		"hardhat": "^2.0.7",
+		"hardhat-deploy": "^0.7.0-beta.49",
+		"mocha": "^8.2.1",
+		"prettier-plugin-solidity": "^1.0.0-beta.6"
+	},
+	"author": "Pavel Sinelnikov",
+	"license": "MIT"
+}

@@ -1,0 +1,36 @@
+{
+	"name": "erc721-metis",
+	"version": "0.1.0",
+	"workspaces": [
+		"client",
+		"server",
+		"contract"
+	],
+	"dependencies": {},
+	"scripts": {
+		"metis": "cd contract && hardhat deploy --network metis",
+		"client": "cd client && yarn start",
+		"server": "cd server && yarn start"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"dotenv": "^10.0.0",
+		"prettier": "^2.2.1"
+	},
+	"author": "Pavel Sinelnikov",
+	"license": "MIT"
+}
