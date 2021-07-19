@@ -12,7 +12,7 @@ app.get('/api/accesstoken', async (req, res) => {
 	const code = req.query.code;
 	axios
 		.get(
-			`https://rocket.metis.io/api/v1/oauth2/access_token?app_id=${process.env.APP_ID}&app_key=${process.env.APP_SECRET}&code=${code}`
+			`https://polis.metis.io/api/v1/oauth2/access_token?app_id=${process.env.APP_ID}&app_key=${process.env.APP_SECRET}&code=${code}`
 		)
 		.then((response) => {
 			res.send(response.data);
