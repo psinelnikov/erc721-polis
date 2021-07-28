@@ -1,6 +1,7 @@
 {
 	"name": "erc721-metis",
 	"version": "0.1.0",
+	"private": true,
 	"workspaces": [
 		"client",
 		"server",
