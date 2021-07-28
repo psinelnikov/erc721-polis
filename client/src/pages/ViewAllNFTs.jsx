@@ -66,7 +66,7 @@ export default function ViewAllNFTs({ httpClient, user }) {
 					search: location.search,
 				}}
 			>
-				<Button>Create NFT</Button>
+				{user && <Button>Create NFT</Button>}
 			</LinkContainer>
 
 			<Table>
