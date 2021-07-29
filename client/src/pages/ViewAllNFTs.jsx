@@ -59,15 +59,17 @@ export default function ViewAllNFTs({ httpClient, user }) {
 	return (
 		<>
 			{!user && <Button onClick={login}>Login</Button>}
-			<LinkContainer
-				className="float-end"
-				to={{
-					pathname: '/create',
-					search: location.search,
-				}}
-			>
-				{user && <Button>Create NFT</Button>}
-			</LinkContainer>
+			{user && (
+				<LinkContainer
+					className="float-end"
+					to={{
+						pathname: '/create',
+						search: location.search,
+					}}
+				>
+					<Button>Create NFT</Button>
+				</LinkContainer>
+			)}
 
 			<Table>
 				<thead>
