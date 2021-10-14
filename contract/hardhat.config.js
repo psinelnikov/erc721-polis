@@ -25,7 +25,7 @@ module.exports = {
 	},
 
 	ovm: {
-		solcVersion: '0.7.6', // Currently, we only support 0.5.16, 0.6.12, and 0.7.6 of the Solidity compiler
+		solcVersion: '0.7.6+commit.3b061308', // Currently, we only support 0.5.16, 0.6.12, and 0.7.6 of the Solidity compiler
 		optimizer: true,
 		runs: 20,
 	},
