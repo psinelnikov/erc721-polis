@@ -26,7 +26,6 @@
 		]
 	},
 	"devDependencies": {
-		"@metis.io/hardhat-mvm": "^0.2.5",
 		"@nomiclabs/hardhat-ethers": "^2.0.1",
 		"@nomiclabs/hardhat-waffle": "^2.0.1",
 		"chai": "4.3.4",
