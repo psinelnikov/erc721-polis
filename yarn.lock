@@ -1870,13 +1870,6 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@metis.io/hardhat-mvm@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@metis.io/hardhat-mvm/-/hardhat-mvm-0.2.5.tgz#0573dbba79d3bc671d49bad748bfcf32e7d5f78d"
-  integrity sha512-gWe+FSOd506fuQOWPQbQl5+mugy3+6WZ9aEu7UZXAn83pcIwX7swz7gnjgiIjJZtH3TJ65xpJEHKQ/QJON0b5g==
-  dependencies:
-    node-fetch "^2.6.1"
-
 "@metis.io/middleware-client@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@metis.io/middleware-client/-/middleware-client-1.0.0.tgz#33df5c6951fc42cb8bf986a5b7c7e827b42d116c"
